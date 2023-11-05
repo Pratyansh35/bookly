@@ -1,0 +1,36 @@
+.brand-logo {
+    width: 136px;
+    object-fit: cover;
+}
+
+.links-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    border-top: 1px solid #d1d1d1;
+    align-items: center;
+    font-family: 'roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.link-container li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    font-family: 'roboto', sans-serif;
+    
+}
+
+
+
+.link {
+    text-transform: capitalize;
+    padding: 10px;
+    
+    text-decoration: none;
+    color: #383838;
+    font-style: italic;
+    font-size: 20px;
+    opacity: 0.5;
+    transition: .5s;
+}
